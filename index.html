@@ -15,32 +15,34 @@
 
 <body>
   <div class="navbarcontainer w-100 overflow-hidden block">
-    <div class="navbar-top  d-flex align-items-center d-row p-2">
-      <div class="desktop-bar-logo logo-container">
-        <img class="img-fluid img-thumbnail" src="logo.png" alt="logo">
-      </div>
-      <div class="p-2 pt-0 pb-0">
-        <a class="text-uppercase font-weight-bold title" href="#">Academic Intelligence</a>
-        <p class="block m-0 subtitle" href="#">Achieve your goal by regular study & mock test</p>
-      </div>
-
-      <form class="form-inline ml-auto sign-up-form" method="get" action="">
-        <input class="form-control" type="text" name="" placeholder="Email">
-        <input class="form-control" type="password" name="" placeholder="Password">
-        <button class="btn btn-success" type="submit">Submit</button>
-        <div class="form-check form-check-inline mt-1">
-          <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
-          <label for="my-input" class="form-check-label">Remeber</label>
+    <div class="navbar-top  d-flex align-items-center d-row">
+      <div class="float-left p-2">
+        <div class="desktop-bar-logo logo-container float-left">
+          <img class="img-fluid img-thumbnail" src="logo.png" alt="logo">
         </div>
-      </form>
+        <div class="float-left pl-2">
+          <a class="text-uppercase font-weight-bold title" href="#">Academic Intelligence</a>
+          <p class="block m-0 subtitle" href="#">Achieve your goal by regular study & mock test</p>
+        </div>
+      </div>
+      <div class="ml-auto sign-reg-wrapper mr-2">
+        <a  href="#">Sign In</a>
+        <a  href="#">Register</a>
+      </div>
     </div>
     <div class="navbar-down d-flex align-items-start">
           <a href="#">Subject View</a>
           <a href="#">Daily Practice</a>
           <a href="#">Exam Prep/Mock</a>
       </div>
-
   </div>
+  <main role="main" class="container mt-5">
+    <div class="jumbotron">
+      <h1>Navbar example</h1>
+      <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+      <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">View navbar docs &raquo;</a>
+    </div>
+  </main>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
