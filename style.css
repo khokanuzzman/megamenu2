@@ -64,3 +64,8 @@
 .sign-reg-wrapper a:hover {
   text-decoration: none;
 }
+button.close {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
