@@ -7,20 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="smalldevice-style.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="small-device bg-dark" style="width: 950px;margin: 0 auto;height: auto;">
-      <nav class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Item 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-        </li>
-      </nav>
-    </div>
+    <nav class="navbar navbar-dark mobile-view">
+      <a class="mobile-logo"><img class="img-fluid img-thumbnail" src="logo.png" alt="logo"></a>
+      <div class="mr-auto d-flex justify-content-around">
+          <a class="mobile-view-item" href="#">Subject View </a>
+          <a class="mobile-view-item" href="#">Daily Practice </a>
+          <a class="mobile-view-item" href="#">Exam Prep/Mock test</a>
+      </div>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="modal" data-target="#exampleModal">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
